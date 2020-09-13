@@ -227,7 +227,7 @@ void DeleteAtPos(PPNODE Head, PPNODE Tail, int pos)
 int main()
 {
     PNODE first = NULL;
-    PNODE last = NULL;          // Nawin
+    PNODE last = NULL;         
     int no = 0, iRet=0;
     
 	printf("\n---------------------------InsertFirst---------------------------\n");
