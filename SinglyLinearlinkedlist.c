@@ -212,7 +212,7 @@ void DeleteAtPos(PPNODE Head, int pos)
 
 int main()
 {
-    PNODE First = NULL;     // Shikshakane lakshat thewaleli value of first node
+    PNODE First = NULL;     
     int no = 0, iRet = 0;
     
 	printf("InsertFirst...\n");
@@ -279,74 +279,6 @@ int main()
 	
     return 0;
 }
-
-
-/*
- 
- 
- 
- 
- 
- 
- 
- 
- PNODE Temp = *Head;
- 
- // Loop 1
- // 100 200 300 400 500 NULL
- while(temp != NULL)
- {
-    temp = temp ->next;
- }
- 
- // Loop 2
- // 100 200 300 400 500
- while(temp->next != NULL)
- {
-    temp = temp ->next;
- }
- 
- // Loop 3
- // 100 200 300 400
- while(temp->next->next != NULL)
- {
-    temp = temp ->next;
- }
- 
- 
- 
- 
- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
