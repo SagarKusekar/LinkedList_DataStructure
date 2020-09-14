@@ -206,7 +206,7 @@ void DeleteAtPos(PPNODE Head, PPNODE Tail, int pos)
 	{
 		DeleteFirst(Head,Tail);
 	}
-	else if(pos==size+1)
+	else if(pos==size)
 	{
 		DeleteLast(Head,Tail);
 	}
