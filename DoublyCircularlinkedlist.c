@@ -203,7 +203,7 @@ void DeleteAtPos(PPNODE Head, PPNODE Tail, int pos)
 	{
 		DeleteFirst(Head,Tail);
 	}
-	else if(pos==size+1)
+	else if(pos==size)
 	{
 		DeleteLast(Head,Tail);
 	}
@@ -217,6 +217,23 @@ void DeleteAtPos(PPNODE Head, PPNODE Tail, int pos)
 		temp->prev->next=temp->next;
 		temp->next->prev=temp->prev;
 		free(temp);
+		
+		/*
+		another logic to delete specified node
+		
+		
+		for(i=1 ; i<pos-1 ; i++)	
+		{
+			temp=temp->next;
+		}
+		temp->next= temp->next->next;
+		free(temp->next->prev);
+		temp->next->prev=temp;
+		
+		
+		
+		
+		*/
 		
 	}
 }
